@@ -8,7 +8,7 @@ function cc(card) {
         case 4:
         case 5:
         case 6:
-            count + 1;
+            count++;
             break;
         case 7:
         case 8:
@@ -20,14 +20,14 @@ function cc(card) {
         case "Q":
         case "K":
         case "A":
-            count - 1;
+            count--;
             break;
     }
 
-    if (count <= 0) {
-        return count + " Hold";
-    } else {
+    if (count > 0) {
         return count + " Bet";
+    } else {
+        return count + " Hold";
     }
     // Only change code above this line
 }
