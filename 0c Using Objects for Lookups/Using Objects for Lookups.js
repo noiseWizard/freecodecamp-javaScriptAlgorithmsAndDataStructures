@@ -27,6 +27,7 @@ function phoneticLookup(val) {
     // so based on the final line of code, it was saying "look for the value for any of these keys",
     // because the original code was a switch, i don't think I'd clicked that it was no longer a switch.
     // go team!
+    // further note: stuff to the left of the above : are called a property/properties?
 
     // Only change code above this line
     return result;
